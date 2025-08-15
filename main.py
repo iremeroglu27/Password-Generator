@@ -68,7 +68,7 @@ def save():
         finally:
             password_input.delete(0,END)
             email_input.delete(0,END)
-            email_input.insert(0,"irem@gmail.com")
+            email_input.insert(0,"YOUR_EMAİL")
             website_input.delete(0,END)
 
 # ---------------------------- FIND PASSWORD -------------------------- #
@@ -123,7 +123,7 @@ website_input.focus()
 
 email_input = Entry(width=51)
 email_input.grid(row=2, column=1, columnspan=2)
-email_input.insert(0,"irem@gmail.com")
+email_input.insert(0,"YOUR_EMAİL")
 # insert(index: Where to insert the text, string: The text to insert)
 
 password_input = Entry(width=33)

@@ -1,0 +1,10 @@
+{
+    "amazon": {
+        "email": "YOUR_EMAİL",
+        "password": "GENERATED_PASSWORD"
+    },
+    "netflix": {
+        "email": "YOUR_EMAİL",
+        "password": "GENERATED_PASSWORD"
+    }
+}
