@@ -48,7 +48,7 @@ def save():
             messagebox.showwarning(title="Oops", message="Please don't leave any fields empty!")
     else:    
         try:
-            with open("./day 30 JSON/Password Generator Update/data.json", mode="r") as data_file:
+            with open("./data.json", mode="r") as data_file:
                 
                 # reading old data
                 data = json.load(data_file)
